@@ -85,6 +85,17 @@ test('AGENTS.md is a self-contained portable ruleset', () => {
   assert.ok(Buffer.byteLength(agents) < 8000, 'AGENTS.md stays compact');
 });
 
+test('README images point at assets that exist, and each asset is credited', () => {
+  const readme = read('README.md');
+  const local = [...readme.matchAll(/<img src="(assets\/[^"]+)"/g)].map((m) => m[1]);
+  assert.ok(local.includes('assets/noa-hero.png'), 'hero image is in the README');
+  const credits = read('assets', 'README.md');
+  for (const rel of local) {
+    assert.ok(fs.existsSync(path.join(ROOT, rel)), rel);
+    assert.ok(credits.includes(path.basename(rel)), rel + ' credited in assets/README.md');
+  }
+});
+
 test('plugin manifests are valid and consistent', () => {
   const plugin = JSON.parse(read('.claude-plugin', 'plugin.json'));
   const market = JSON.parse(read('.claude-plugin', 'marketplace.json'));

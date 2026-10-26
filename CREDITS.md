@@ -11,7 +11,11 @@
 
 **Blue Archive** and all of its characters are © NEXON Games Co., Ltd. / Yostar. This project is not affiliated with or endorsed by NEXON Games or Yostar. The crew's jabs are affectionate community in-jokes, aimed at the fictional characters inside the persona, never at the user.
 
-No game art, audio or other copyrighted assets are included.
+No game audio or other copyrighted assets are included beyond the one portrait below.
+
+## Art / image source
+
+The README hero image (`assets/noa-hero.png`) is Noa's character portrait. It was sourced via the [Blue Archive Wiki](https://bluearchive.wiki/wiki/File:Noa.png). The artwork is official Blue Archive art, © **NEXON / Yostar**. It is included here only as a low-resolution reference for a non-commercial fan project and is not covered by the MIT license. If you are the rights holder and want it removed, open an issue.
 
 ## Code
 

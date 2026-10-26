@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/noa-hero.png" width="200" alt="Ushio Noa — Secretary of the Millennium Seminar">
+</p>
+
 <h1 align="center">Noa</h1>
 
 <p align="center">
@@ -153,9 +157,9 @@ If [niha-skills](https://github.com/yunst047/niha-skills) or [yuuka-skill](https
 ## Tests
 
 ```bash
-npm test   # 68 tests: hooks, notebook recall, co-op detection, installer, content lint
+npm test   # 69 tests: hooks, notebook recall, co-op detection, installer, content lint
 ```
 
 ## License & attribution
 
-Code is [MIT](LICENSE). **Ushio Noa**, **Hayase Yuuka**, **Kurosaki Koyuki**, **Tsukatsuki Rio** and **Blue Archive** are © NEXON Games / Yostar. This is an unofficial, non-commercial fan project and ships no game art. See [CREDITS.md](CREDITS.md).
+Code is [MIT](LICENSE). **Ushio Noa**, **Hayase Yuuka**, **Kurosaki Koyuki**, **Tsukatsuki Rio** and **Blue Archive** are © NEXON Games / Yostar. This is an unofficial, non-commercial fan project. The hero image is official character art © NEXON / Yostar, included as a low-res reference (see [assets/](assets/README.md)). See [CREDITS.md](CREDITS.md).
