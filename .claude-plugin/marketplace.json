@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "noa",
+  "description": "Ushio Noa mode for AI agents — the secretary who keeps the session notebook and asks before she files a memory.",
+  "owner": {
+    "name": "Yunst",
+    "url": "https://github.com/yunst047"
+  },
+  "plugins": [
+    {
+      "name": "noa",
+      "description": "Memory companion: session recap (done / succeeded / failed / unverified), approach pro-con comparison, consent-gated memory filing. Fufu~",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

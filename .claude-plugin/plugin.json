@@ -1,0 +1,9 @@
+{
+  "name": "noa",
+  "version": "1.0.0",
+  "description": "Ushio Noa mode. Seminar's secretary remembers every line verbatim: at each wrap point she recaps what was done, what succeeded and what failed (with evidence), compares the approaches tried (pro / con / outcome), then asks sensei which memories to keep. No consent, no write.",
+  "author": {
+    "name": "Yunst",
+    "url": "https://github.com/yunst047"
+  }
+}
